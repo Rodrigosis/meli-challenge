@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from typing import List, Dict
+from typing import Dict
 
 from src.infra.dataset import Dataset
 from src.domain.common_friends import CommonFriends

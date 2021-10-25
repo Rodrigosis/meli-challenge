@@ -1,6 +1,6 @@
 from unittest import TestCase
 import pathlib
-import pandas
+import pandas  # type: ignore
 
 from src.domain.common_friends import CommonFriends
 

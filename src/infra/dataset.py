@@ -1,5 +1,5 @@
 import pathlib
-import pandas
+import pandas  # type: ignore
 
 
 class Dataset:

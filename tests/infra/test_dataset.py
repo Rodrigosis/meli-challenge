@@ -1,5 +1,5 @@
 from unittest import TestCase
-import pandas
+import pandas  # type: ignore
 import pathlib
 
 from src.infra.dataset import Dataset
@@ -17,5 +17,5 @@ class TestDataset(TestCase):
 
         test = df[df['con1'] == 'foo_1'].shape
 
-        self.assertEquals(test[0], 1)
-        self.assertEquals(test[1], 4)
+        self.assertEqual(test[0], 1)
+        self.assertEqual(test[1], 4)
